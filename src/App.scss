@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Economica&family=Grape+Nuts&family=Roboto:wght@100;300;400;700;900&display=swap");
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: "Roboto", sans-serif;
+
+    &::-webkit-scrollbar{
+        display: none;
+    }
+   }
+
+ a,h2{
+    color: white;
+ }  
+a{
+
+    text-decoration: none;
+}
+
+$bg: rgb(16,16,16);
+
+
+.header{
+    height: 100px;
+    background-color:$bg;
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    box-sizing: border-box;
+    justify-content: center;
+
+    >img{
+        height: 100%;
+    }
+    >div{
+       
+        width: 100%;
+        margin-left: 4vmax;
+
+        >a{
+            margin: 2vmax;
+            font-size: 1.2rem;
+            font-weight: 300;
+        }
+    }
+   
+    >svg{
+        color: white;
+        font-size: 2rem;
+        cursor:pointer ;
+
+        &:hover{
+            color: rgb(216,216,216);
+        }
+
+    }
+}
+
+
+//------------------------------------------------
+
+/* Media query for screens with a maximum width of 767px (mobile devices) */
+@media only screen and (max-width: 767px) {
+    .header {
+      /* Mobile-specific styles for the header */
+      height: 80px;
+      padding: 1rem;
+      justify-content: flex-start;
+      align-items: flex-start;
+    }
+  
+    .header img {
+      height: 70px;
+    }
+  
+    .header div {
+      width: 100%;
+      margin-left: 1rem;
+      justify-content: flex-start;
+      align-items: flex-start;
+    }
+  
+    .header div a {
+      margin: 0.5rem;
+      font-size: 1rem;
+    }
+  
+    .header svg {
+      font-size: 1.5rem;
+    }
+ 
+  }
+
+  // Mobile (X-Small)
+@media (max-width: 575px) {
+    .header {
+      flex-direction: column;
+      align-items: flex-start;
+  
+      > div {
+        margin-left: 0;
+        margin-top: 1rem;
+      }
+  
+      > svg {
+        margin-left: auto;
+      }
+    }
+
+  }
+  // Mobile (X-Small)
+@media (max-width: 320px) {
+    .header {
+      flex-direction: column;
+      align-items: flex-start;
+  
+      > div {
+        margin-left: 0;
+        margin-top: 1rem;
+      }
+  
+      > svg {
+        margin-left: auto;
+      }
+    }
+  }
+  
