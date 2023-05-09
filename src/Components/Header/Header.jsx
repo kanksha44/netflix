@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <nav className="header">
       <img src={logo} alt="logo" />
-      <div>
+      <div className="menus">
         <Link to="/tvshows">TV Shows</Link>
         <Link to="/tvshows">Movies</Link>
         <Link to="/tvshows">Recently Added </Link>

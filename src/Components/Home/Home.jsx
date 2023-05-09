@@ -94,7 +94,7 @@ const Home = () => {
         {popularMovies[9] && <h1>{popularMovies[9].original_title}</h1>}
         {popularMovies[9] && <p>{popularMovies[9].overview}</p>}
 
-        <div>
+        <div className="home_button">
           <button>
             <BsFillPlayFill />
             Play
@@ -118,25 +118,6 @@ const Home = () => {
           </Link>
         ))}
       </div>
-
-      {/* <footer className="footer">
-        <div className="footer-top">
-          <div className="footer-links">
-            <Link to="/">Home</Link>
-            <Link to="/">Terms of Service</Link>
-            <Link to="/">Privacy Policy</Link>
-            <Link to="/">Contact Us</Link>
-          </div>
-          <div className="footer-social">
-            <a href="https://www.facebook.com">Facebook</a>
-            <a href="https://www.twitter.com">Twitter</a>
-            <a href="https://www.instagram.com">Instagram</a>
-          </div>
-        </div>
-        <div className="footer-bottom">
-          <span>Netflix &copy; 2023</span>
-        </div>
-      </footer> */}
 
       <footer className="footer">
         <div className="footer-icons">
@@ -200,7 +181,7 @@ const Home = () => {
           </div>
         </div>
         <div className="footer-bottom">
-          &copy; 2023 Amazon Clone. All rights reserved.
+          &copy; 2023 Netflix Clone. All rights reserved.
         </div>
       </footer>
     </section>
