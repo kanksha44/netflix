@@ -1,0 +1,26 @@
+.thirdpage-logo img {
+  height: 3rem;
+  width: 9rem;
+  flex-basis: 50%;
+}
+
+.thirdpage-hero {
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+  margin: 10rem 0;
+}
+.third-page-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.third-page-icons {
+  color: red;
+}
+.next-btn{
+    color: white;
+    background-color: rgb(242, 23, 23);
+}

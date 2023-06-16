@@ -1,0 +1,78 @@
+.plans-premium,
+.plans-standard,
+.plans-basic,
+.plans-mobile {
+  width: 8rem;
+  height: 8rem;
+  background-color: #e50914;
+  text-align: center;
+  margin-right: 3rem;
+  color: white;
+}
+.plans-notvisible {
+  width: 8rem;
+  height: 8rem;
+  background-color: transparent;
+  text-align: center;
+  flex-basis: 30%;
+}
+.plans-mode {
+  display: flex;
+  align-items: center;
+}
+.all-plans {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.monthly-price {
+  display: flex;
+  align-items: center;
+}
+.dummyprice {
+  flex-basis: 30%;
+  text-align: center;
+  /* border: 1px solid red; */
+}
+.plan-price {
+  display: flex;
+  /* margin-right: 3rem; */
+}
+.plan-price li {
+  list-style: none;
+  margin-right: 10rem;
+}
+.video-quality,
+.resolution,
+.devices-watch {
+  display: flex;
+  align-items: center;
+}
+.video-mode,
+.resolution-mode,
+.device-mode {
+  flex-basis: 30%;
+  text-align: center;
+}
+.plans-video,
+.resolution-plans,
+.device-plans {
+  display: flex;
+}
+.plans-video li {
+  list-style: none;
+  margin-right: 10rem;
+}
+.resolution-plans li {
+  list-style: none;
+  margin-right: 10rem;
+}
+.device-plans li {
+  list-style: none;
+  margin-right: 10rem;
+}
+.plans-footer {
+  height: 15rem;
+  width: 100%;
+  background-color: gray;
+}

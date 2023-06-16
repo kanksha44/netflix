@@ -1,0 +1,38 @@
+.first-page-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px gray solid;
+  height: 5rem;
+}
+.first-page-logo img {
+  height: 3rem;
+  width: 9rem;
+  flex-basis: 40%;
+}
+/* .first-page-logo {
+  flex-basis: 30%;
+} */
+
+.firstpagehero {
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+  margin: 10rem 0;
+}
+.firstpage-hero-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.first-page-content {
+  text-align: center;
+}
+
+.first-page-content .get-started-btn {
+  color: white;
+  background-color: rgb(242, 23, 23);
+}

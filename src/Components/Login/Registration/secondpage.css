@@ -1,0 +1,42 @@
+.secondpage-form {
+  display: flex;
+  flex-direction: column;
+}
+.second-page-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px gray solid;
+  height: 5rem;
+}
+.second-page-logo img {
+  height: 3rem;
+  width: 9rem;
+  flex-basis: 50%;
+}
+/* .second-page-logo {
+    flex-basis: 30%;
+  } */
+
+.secondpagehero {
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+  margin: 10rem 0;
+}
+.secondpage-hero-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.second-page-content {
+  text-align: center;
+}
+
+.second-page-content .get-started-btn {
+  color: white;
+  background-color: rgb(242, 23, 23);
+}

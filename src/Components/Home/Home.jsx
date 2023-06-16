@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./Home.scss";
+import Header from "../Header/Header" 
 import axios from "axios";
 import { Link } from "react-router-dom";
 import { BsFillPlayFill } from "react-icons/bs";
@@ -83,6 +84,7 @@ const Home = () => {
 
   return (
     <section className="home">
+      <Header />
       <div
         className="banner"
         style={{
