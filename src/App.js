@@ -41,8 +41,7 @@ function App() {
       {/* <Header /> */}
       <Routes>
         {user && (
-          <Route path="/" element={<PrivateRoute Component={Home} />} />
-        )}
+          <Route path="/" exact element={<Home/>} />)}
         <Route path="/signup" exact element={<Signups />} />
         <Route path="/login" exact element={<Logins />} />
         <Route path="/" element={<Navigate replace to="/login" />} />
