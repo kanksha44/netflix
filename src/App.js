@@ -40,8 +40,7 @@ function App() {
     <Router>
       {/* <Header /> */}
       <Routes>
-        {user && (
-          <Route path="/" exact element={<Home/>} />)}
+        {user && <Route path="/" exact element={<Home />} />}
         <Route path="/signup" exact element={<Signups />} />
         <Route path="/login" exact element={<Logins />} />
         <Route path="/" element={<Navigate replace to="/login" />} />
