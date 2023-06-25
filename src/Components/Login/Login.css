@@ -1,0 +1,23 @@
+.login-form {
+  display: flex;
+  flex-direction: row;
+}
+.login-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px gray solid;
+  height: 5rem;
+}
+.login-logo img {
+  height: 3rem;
+  width: 9rem;
+}
+.login-logo {
+  flex-basis: 50%;
+}
+
+.login-signinbtn {
+  color: white;
+  background-color: rgb(242, 23, 23);
+}

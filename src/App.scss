@@ -56,6 +56,29 @@ $bg: rgb(16, 16, 16);
       color: red;
     }
   }
+  .logoutbtn {
+    background-color: red;
+    width: 5rem;
+    height: 2rem;
+    border-radius: 0.3rem;
+    font-weight: 600;
+    border: 1px solid black;
+  }
+  .btn {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 2rem;
+    > svg {
+      color: white;
+      font-size: 2rem;
+      cursor: pointer;
+
+      &:hover {
+        color: red;
+      }
+    }
+  }
 }
 
 //------------------------------------------------

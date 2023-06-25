@@ -23,6 +23,7 @@ const Landingpage = () => {
               height: "2.1rem",
               marginLeft: "10px",
             }}
+            onClick={() => navigate("/login")}
           >
             Sign in
           </Button>

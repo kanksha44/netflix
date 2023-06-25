@@ -1,9 +1,16 @@
 import React from "react";
 import logo from "../../logo.png";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { ImSearch } from "react-icons/im";
 
 const Header = () => {
+  const navigate = useNavigate();
+  const handleLogout = () => {
+    localStorage.removeItem("accessToken");
+    localStorage.removeItem("refreshToken");
+
+    navigate("/login");
+  };
   return (
     <nav className="header">
       <img src={logo} alt="logo" />
@@ -14,7 +21,12 @@ const Header = () => {
         <Link to="/tvshows">My List</Link>
       </div>
 
-      <ImSearch />
+      <div className="btn">
+        <ImSearch />
+        <button onClick={handleLogout} className="logoutbtn">
+          Logout
+        </button>
+      </div>
     </nav>
   );
 };
